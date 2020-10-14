@@ -6,6 +6,9 @@ import { Album } from "./album";
 
 @Injectable()
 export class ProductService {
+  getProducts() {
+    throw new Error('Method not implemented.');
+  }
   private _albumUrl = "../assets/album.json";
 
   constructor(private _http: Http) {}
